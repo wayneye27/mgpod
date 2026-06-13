@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "canva",
+    "name": "Canva",
+    "targetUrl": "https://www.canva.com/",
+    "network": "Direct or partner network",
+    "commission": "Varies by program",
+    "notes": "Use for product images, social posts, and listing graphics."
+  },
+  {
+    "slug": "shopify",
+    "name": "Shopify",
+    "targetUrl": "https://www.shopify.com/",
+    "network": "Impact or direct",
+    "commission": "Varies by program",
+    "notes": "Good fit for ecommerce store builder content."
+  },
+  {
+    "slug": "klaviyo",
+    "name": "Klaviyo",
+    "targetUrl": "https://www.klaviyo.com/",
+    "network": "Partner program",
+    "commission": "Varies by program",
+    "notes": "Use for email marketing and ecommerce automation content."
+  },
+  {
+    "slug": "semrush",
+    "name": "Semrush",
+    "targetUrl": "https://www.semrush.com/",
+    "network": "Impact or direct",
+    "commission": "Varies by program",
+    "notes": "Use for SEO and keyword research comparisons."
+  },
+  {
+    "slug": "printify",
+    "name": "Printify",
+    "targetUrl": "https://printify.com/",
+    "network": "Direct or partner network",
+    "commission": "Varies by program",
+    "notes": "Use for print-on-demand seller tutorials."
+  }
+]
