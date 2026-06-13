@@ -38,5 +38,85 @@
     "network": "Direct or partner network",
     "commission": "Varies by program",
     "notes": "Use for print-on-demand seller tutorials."
+  },
+  {
+    "slug": "hostinger",
+    "name": "Hostinger",
+    "targetUrl": "https://www.hostinger.com/",
+    "network": "Direct affiliate program",
+    "commission": "High-ticket hosting commissions; verify in affiliate dashboard",
+    "notes": "Replace this URL with your approved tracking link before paid promotion."
+  },
+  {
+    "slug": "getresponse",
+    "name": "GetResponse",
+    "targetUrl": "https://www.getresponse.com/",
+    "network": "Direct affiliate program",
+    "commission": "Recurring or bounty options may be available; verify in dashboard",
+    "notes": "Strong fit for email list and funnel content."
+  },
+  {
+    "slug": "fiverr",
+    "name": "Fiverr",
+    "targetUrl": "https://www.fiverr.com/",
+    "network": "Fiverr Partnerships",
+    "commission": "Public program advertises first-order CPA plus 12-month revenue share",
+    "notes": "Use for outsourced marketing asset articles."
+  },
+  {
+    "slug": "surfer-seo",
+    "name": "Surfer SEO",
+    "targetUrl": "https://surferseo.com/",
+    "network": "Direct or partner network",
+    "commission": "Verify in affiliate dashboard",
+    "notes": "Use for SEO content optimization reviews."
+  },
+  {
+    "slug": "jasper",
+    "name": "Jasper",
+    "targetUrl": "https://www.jasper.ai/",
+    "network": "Direct or partner network",
+    "commission": "Verify in affiliate dashboard",
+    "notes": "Use for AI marketing content workflows."
+  },
+  {
+    "slug": "omnisend",
+    "name": "Omnisend",
+    "targetUrl": "https://www.omnisend.com/",
+    "network": "Direct or partner network",
+    "commission": "Verify in affiliate dashboard",
+    "notes": "Use for ecommerce email and SMS automation content."
+  },
+  {
+    "slug": "kit",
+    "name": "Kit",
+    "targetUrl": "https://kit.com/",
+    "network": "Direct or partner network",
+    "commission": "Verify in affiliate dashboard",
+    "notes": "Formerly ConvertKit; use for creator audience and newsletter content."
+  },
+  {
+    "slug": "clickfunnels",
+    "name": "ClickFunnels",
+    "targetUrl": "https://www.clickfunnels.com/",
+    "network": "Direct affiliate program",
+    "commission": "Verify in affiliate dashboard",
+    "notes": "Use for funnel and digital offer content."
+  },
+  {
+    "slug": "webflow",
+    "name": "Webflow",
+    "targetUrl": "https://webflow.com/",
+    "network": "Partner or affiliate program",
+    "commission": "Verify in affiliate dashboard",
+    "notes": "Use for landing page and CMS builder content."
+  },
+  {
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "targetUrl": "https://www.grammarly.com/",
+    "network": "Partner or affiliate program",
+    "commission": "Verify in affiliate dashboard",
+    "notes": "Use for writing quality and business communication content."
   }
 ]
