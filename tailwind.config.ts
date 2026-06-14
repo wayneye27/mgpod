@@ -9,12 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#17201a",
-        moss: "#44624a",
-        mint: "#e7f2e8",
-        clay: "#c36f4a",
-        oat: "#f6f1e8",
-        line: "#d9ddcf"
+        ink: "#18181b",
+        moss: "#52525b",
+        mint: "#ecfdf5",
+        clay: "#0f766e",
+        oat: "#fafaf5",
+        line: "#deded4"
       },
       boxShadow: {
         soft: "0 12px 40px rgba(23, 32, 26, 0.08)"

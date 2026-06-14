@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contact Seller AI Tools for corrections, partnerships, and editorial questions."
+  description: "Contact MGPod Reviews for corrections, partnerships, and editorial questions."
 };
 
 export default function ContactPage() {

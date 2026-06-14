@@ -97,6 +97,42 @@ export default async function ArticlePage({ params }: Params) {
               </ul>
               <h2>Why this offer can convert</h2>
               <p>{article.review.whyItConverts}</p>
+              {(article.review.trendSignals ||
+                article.review.feedbackSources ||
+                article.review.videoSources) && (
+                <div className="mt-8 grid gap-4 md:grid-cols-3">
+                  {article.review.trendSignals && (
+                    <section className="rounded-lg border border-line bg-oat p-4">
+                      <h2 className="mt-0 text-lg">Trend signals</h2>
+                      <ul>
+                        {article.review.trendSignals.map((signal) => (
+                          <li key={signal}>{signal}</li>
+                        ))}
+                      </ul>
+                    </section>
+                  )}
+                  {article.review.feedbackSources && (
+                    <section className="rounded-lg border border-line bg-oat p-4">
+                      <h2 className="mt-0 text-lg">Feedback to verify</h2>
+                      <ul>
+                        {article.review.feedbackSources.map((source) => (
+                          <li key={source}>{source}</li>
+                        ))}
+                      </ul>
+                    </section>
+                  )}
+                  {article.review.videoSources && (
+                    <section className="rounded-lg border border-line bg-oat p-4">
+                      <h2 className="mt-0 text-lg">Video proof</h2>
+                      <ul>
+                        {article.review.videoSources.map((source) => (
+                          <li key={source}>{source}</li>
+                        ))}
+                      </ul>
+                    </section>
+                  )}
+                </div>
+              )}
               <h2>Recommended stack</h2>
               <ComparisonTable tools={featuredTools} />
               {article.review.sections.map((section) => (

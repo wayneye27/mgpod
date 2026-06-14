@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
-  description: "Affiliate disclosure for Seller AI Tools."
+  description: "Affiliate disclosure for MGPod Reviews."
 };
 
 export default function AffiliateDisclosurePage() {
@@ -11,7 +11,7 @@ export default function AffiliateDisclosurePage() {
       <h1 className="text-4xl font-black text-ink">Affiliate Disclosure</h1>
       <section className="prose-content mt-6 rounded-lg border border-line bg-white p-6 shadow-soft">
         <p>
-          Some links on Seller AI Tools are affiliate links. If you click a link and buy a product,
+          Some links on MGPod Reviews are affiliate links. If you click a link and buy a product,
           we may earn a commission at no additional cost to you.
         </p>
         <p>

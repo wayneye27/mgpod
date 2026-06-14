@@ -1,7 +1,7 @@
 export const site = {
-  name: "Seller AI Tools",
+  name: "MGPod Reviews",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://mgpod.com",
   description:
-    "Practical AI tool reviews, ecommerce workflows, and software comparisons for Etsy and Shopify sellers.",
-  author: "Seller AI Tools Editorial"
+    "Trend-led product reviews, buyer guides, and affiliate research for software, creator tools, ecommerce platforms, and high-intent online products.",
+  author: "MGPod Reviews Editorial"
 };

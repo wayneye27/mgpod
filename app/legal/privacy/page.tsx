@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy policy for Seller AI Tools."
+  description: "Privacy policy for MGPod Reviews."
 };
 
 export default function PrivacyPage() {
@@ -11,7 +11,7 @@ export default function PrivacyPage() {
       <h1 className="text-4xl font-black text-ink">Privacy Policy</h1>
       <section className="prose-content mt-6 rounded-lg border border-line bg-white p-6 shadow-soft">
         <p>
-          Seller AI Tools may collect basic analytics data, affiliate click data, and information
+          MGPod Reviews may collect basic analytics data, affiliate click data, and information
           you voluntarily submit through contact or newsletter forms.
         </p>
         <h2>Analytics</h2>

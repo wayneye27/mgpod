@@ -23,7 +23,7 @@ export function getAffiliateUrl(slug: string, source = "site"): string {
   const url = new URL(affiliate.targetUrl);
   url.searchParams.set("utm_source", source);
   url.searchParams.set("utm_medium", "affiliate");
-  url.searchParams.set("utm_campaign", "seller_ai_tools");
+  url.searchParams.set("utm_campaign", "mgpod_reviews");
 
   return url.toString();
 }

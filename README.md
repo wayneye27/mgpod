@@ -1,6 +1,6 @@
-# Seller AI Tools Affiliate Site
+# MGPod Reviews Affiliate Site
 
-A Next.js affiliate content site for AI tools, ecommerce software, comparison pages, and free seller utilities.
+A Next.js affiliate content site for trend-led product reviews, buyer guides, software comparisons, and free utility pages.
 
 ## What is included
 

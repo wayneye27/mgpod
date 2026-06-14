@@ -14,6 +14,9 @@ export type Article = {
     notFor: string[];
     whyItConverts: string;
     commissionNote: string;
+    trendSignals?: string[];
+    feedbackSources?: string[];
+    videoSources?: string[];
     sections: {
       heading: string;
       body: string;
@@ -109,6 +112,13 @@ export const articles: Article[] = [
         "The buying intent is strong: people searching for store builders usually already have a product idea or business plan. Shopify also publishes an affiliate program for creators, course makers, content publishers, commerce experts, and app partners.",
       commissionNote:
         "Shopify's public affiliate page says affiliates can earn up to $150 USD per qualified referral, with amounts varying by referral location and plan. Replace the current /go/shopify target with your approved Impact tracking link.",
+      trendSignals: [
+        "Search intent around store builders, Shopify alternatives, and Shopify vs Etsy",
+        "Persistent demand from ecommerce, print-on-demand, and creator commerce audiences",
+        "High commercial fit because readers usually need a checkout platform before launch"
+      ],
+      feedbackSources: ["Shopify App Store ecosystem feedback", "G2/Capterra review patterns", "Reddit ecommerce discussions"],
+      videoSources: ["Official Shopify YouTube demos", "Third-party Shopify setup walkthroughs"],
       sections: [
         {
           heading: "Why Shopify fits off-site marketing",
@@ -168,6 +178,13 @@ export const articles: Article[] = [
         "SEO software has clear business ROI. Semrush publicly lists affiliate payouts by product and partner tier, including higher commissions for top-performing partners, which makes it attractive for review and comparison pages.",
       commissionNote:
         "Semrush's public affiliate page lists partner commission examples up to $450 per sale depending on product and tier, plus trial activation payouts. Use only your approved Impact tracking link.",
+      trendSignals: [
+        "High-intent keywords around SEO tools, keyword research, and competitor analysis",
+        "Strong agency and publisher buyer intent",
+        "Recurring SaaS category with measurable business ROI"
+      ],
+      feedbackSources: ["G2/Capterra review patterns", "SEO community comparisons", "Agency workflow discussions"],
+      videoSources: ["Official Semrush Academy videos", "YouTube SEO workflow tutorials"],
       sections: [
         {
           heading: "Why Semrush works for affiliate content",
@@ -227,6 +244,13 @@ export const articles: Article[] = [
         "Hosting content captures readers at the setup stage. If someone searches how to start an affiliate website, they need a domain, hosting, CMS, and publishing workflow, which creates a natural conversion path.",
       commissionNote:
         "Hosting programs often pay high bounty-style commissions, but exact rates must be verified in your approved affiliate dashboard before publishing claims.",
+      trendSignals: [
+        "Evergreen demand around starting blogs, affiliate websites, and WordPress hosting",
+        "Buyer-intent comparison keywords such as best web hosting for beginners",
+        "Strong fit for new-site tutorials and setup guides"
+      ],
+      feedbackSources: ["Hosting review site patterns", "Trustpilot/G2 public feedback", "WordPress beginner discussions"],
+      videoSources: ["Official Hostinger setup videos", "WordPress hosting tutorial videos"],
       sections: [
         {
           heading: "Why Hostinger fits off-site marketing",
@@ -286,6 +310,13 @@ export const articles: Article[] = [
         "Email tools convert because they connect traffic with repeat sales. A reader who already pays for ads, SEO, or social content often understands why owning an email list matters.",
       commissionNote:
         "GetResponse has historically promoted affiliate options, but exact recurring or bounty terms should be verified in your approved dashboard before making commission claims.",
+      trendSignals: [
+        "Sustained demand for email marketing software and affiliate funnel tools",
+        "Strong fit for lead magnet, webinar, and newsletter keywords",
+        "Commercial intent from users trying to monetize existing traffic"
+      ],
+      feedbackSources: ["Email marketing software reviews", "Creator and affiliate forum discussions", "Public pricing feedback"],
+      videoSources: ["Official GetResponse webinars", "Email funnel setup walkthroughs"],
       sections: [
         {
           heading: "Why GetResponse fits affiliate funnels",
@@ -345,6 +376,13 @@ export const articles: Article[] = [
         "Fiverr's public affiliate page advertises first-order commissions plus a 12-month revenue share on future orders, making repeat buyer behavior attractive for publishers.",
       commissionNote:
         "Fiverr publicly lists commission structures such as 25% to 100% of a customer's first order depending on product line, plus 10% revenue share from future orders in the first 12 months.",
+      trendSignals: [
+        "High volume demand for freelance design, video editing, SEO, and ecommerce services",
+        "Strong conversion fit for people who need launch assets immediately",
+        "Broad buyer pool across creators, founders, and small businesses"
+      ],
+      feedbackSources: ["Fiverr seller ratings", "Buyer review patterns by category", "Small business outsourcing discussions"],
+      videoSources: ["Fiverr official product videos", "YouTube tutorials on hiring freelancers effectively"],
       sections: [
         {
           heading: "Why Fiverr fits off-site marketing",
@@ -404,6 +442,13 @@ export const articles: Article[] = [
         "Content optimization tools sell well to publishers because every page has measurable upside: better structure, stronger search intent matching, and clearer refresh priorities.",
       commissionNote:
         "Use your approved Surfer SEO affiliate link when available. Do not publish exact commission claims unless confirmed by the current partner terms.",
+      trendSignals: [
+        "Rising demand for content optimization and AI-assisted SEO workflows",
+        "Strong fit for affiliate publishers refreshing review pages",
+        "Commercial keywords around Surfer SEO alternatives and content optimization tools"
+      ],
+      feedbackSources: ["SEO community feedback", "Content marketer tool comparisons", "Public SaaS review patterns"],
+      videoSources: ["Official Surfer SEO tutorials", "Content optimization workflow videos"],
       sections: [
         {
           heading: "Why Surfer fits affiliate publishers",
@@ -463,6 +508,13 @@ export const articles: Article[] = [
         "AI writing tools remain popular because they promise speed. Jasper has a stronger business angle when positioned around marketing workflows, brand voice, and team content production.",
       commissionNote:
         "Replace /go/jasper with your approved Jasper affiliate tracking URL before promotion. Avoid claiming exclusive discounts unless issued by the program.",
+      trendSignals: [
+        "Ongoing demand for AI copywriting, brand voice, and campaign content tools",
+        "Commercial fit for marketing teams and content operators",
+        "Useful comparison keywords around Jasper vs ChatGPT and Jasper alternatives"
+      ],
+      feedbackSources: ["AI writing tool review platforms", "Marketing team discussions", "Public pricing and workflow feedback"],
+      videoSources: ["Official Jasper demos", "AI copywriting workflow videos"],
       sections: [
         {
           heading: "Why Jasper fits off-site marketing",
@@ -522,6 +574,13 @@ export const articles: Article[] = [
         "Retention tools have a clear revenue story. If a store already has traffic and abandoned carts, email/SMS automation can be tied to recoverable revenue rather than vague productivity.",
       commissionNote:
         "Use your approved Omnisend affiliate URL when available. Confirm commission terms in the partner dashboard before publishing payout claims.",
+      trendSignals: [
+        "High-intent demand around Shopify email marketing and abandoned cart recovery",
+        "Clear ecommerce ROI story for retention and repeat purchase flows",
+        "Strong comparison opportunities with Klaviyo and Mailchimp"
+      ],
+      feedbackSources: ["Shopify app and review ecosystem signals", "Ecommerce email marketing discussions", "Public SaaS reviews"],
+      videoSources: ["Official Omnisend tutorials", "Shopify email automation videos"],
       sections: [
         {
           heading: "Why Omnisend fits off-site marketing",
@@ -581,6 +640,13 @@ export const articles: Article[] = [
         "Creator email tools convert because they protect creators from platform dependence. The offer is easy to explain: turn rented attention into an owned list.",
       commissionNote:
         "Kit partner terms should be verified in your current affiliate dashboard. Replace /go/kit with the approved tracking link before paid promotion.",
+      trendSignals: [
+        "Creator economy demand for newsletters, landing pages, and digital products",
+        "Strong fit for creators trying to reduce dependence on social algorithms",
+        "Commercial keywords around creator email platforms and Kit alternatives"
+      ],
+      feedbackSources: ["Creator community feedback", "Newsletter operator comparisons", "Public SaaS review patterns"],
+      videoSources: ["Official Kit tutorials", "Newsletter setup and creator funnel videos"],
       sections: [
         {
           heading: "Why Kit fits off-site marketing",
@@ -640,6 +706,13 @@ export const articles: Article[] = [
         "Funnel tools convert well because the audience is revenue-focused. A buyer searching for funnel software usually has an offer, a campaign, or a launch plan in mind.",
       commissionNote:
         "ClickFunnels affiliate terms must be checked in your approved account before publishing specific payout claims.",
+      trendSignals: [
+        "High commercial intent around funnel builders, landing pages, and digital offers",
+        "Strong audience fit for course sellers, coaches, and paid traffic marketers",
+        "Comparison demand around ClickFunnels alternatives"
+      ],
+      feedbackSources: ["Funnel builder reviews", "Creator business community feedback", "Public pricing and support discussions"],
+      videoSources: ["Official ClickFunnels training videos", "Sales funnel build walkthroughs"],
       sections: [
         {
           heading: "Why ClickFunnels fits off-site marketing",
@@ -699,6 +772,13 @@ export const articles: Article[] = [
         "Website builder comparisons attract users actively choosing infrastructure. Webflow is especially relevant for design-conscious founders and agencies, which can mean higher buyer value.",
       commissionNote:
         "Use your approved Webflow partner or affiliate tracking URL before promotion. Do not claim commission rates unless confirmed in the current program.",
+      trendSignals: [
+        "Consistent demand for no-code website builders and Webflow vs WordPress comparisons",
+        "Strong buyer fit among agencies, founders, and design-conscious teams",
+        "Commercial use cases around landing pages, CMS sites, and product directories"
+      ],
+      feedbackSources: ["Designer and agency community feedback", "Public Webflow reviews", "No-code builder comparisons"],
+      videoSources: ["Official Webflow University videos", "Third-party Webflow build tutorials"],
       sections: [
         {
           heading: "Why Webflow fits off-site marketing",
@@ -758,6 +838,13 @@ export const articles: Article[] = [
         "Writing tools have broad appeal and low friction. Grammarly fits many articles about content quality, business writing, product descriptions, and AI-assisted editing.",
       commissionNote:
         "Replace /go/grammarly with your approved partner tracking URL. Verify the current commission model before making payout claims.",
+      trendSignals: [
+        "Evergreen demand for writing assistants, grammar checkers, and AI editing tools",
+        "Broad audience fit across students, creators, sellers, and business teams",
+        "Strong comparison demand around Grammarly alternatives"
+      ],
+      feedbackSources: ["Writing tool review platforms", "Business communication discussions", "Creator editing workflow feedback"],
+      videoSources: ["Official Grammarly demos", "Writing workflow and editing tutorial videos"],
       sections: [
         {
           heading: "Why Grammarly fits affiliate content",

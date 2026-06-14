@@ -26,11 +26,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="border-b border-line/80 bg-oat/80 backdrop-blur">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
             <Link href="/" className="text-lg font-black tracking-normal text-ink">
-              Seller AI Tools
+              MGPod Reviews
             </Link>
             <nav className="flex items-center gap-5 text-sm font-semibold text-moss">
               <Link href="/articles">Articles</Link>
               <Link href="/tools">Tools</Link>
+              <Link href="/methodology">Methodology</Link>
               <Link href="/legal/affiliate-disclosure">Disclosure</Link>
             </nav>
           </div>
@@ -39,10 +40,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="mt-16 border-t border-line bg-white/60">
           <div className="mx-auto grid max-w-6xl gap-6 px-5 py-10 text-sm text-moss md:grid-cols-[1.4fr_1fr_1fr]">
             <div>
-              <p className="font-bold text-ink">Seller AI Tools</p>
+              <p className="font-bold text-ink">MGPod Reviews</p>
               <p className="mt-2 max-w-md">
-                Tool reviews, practical ecommerce workflows, and comparison pages for sellers who
-                want better systems without bloated software stacks.
+                Trend-led buyer guides and affiliate reviews for software, creator tools, commerce
+                platforms, and high-intent digital products.
               </p>
             </div>
             <div className="grid gap-2">
@@ -52,7 +53,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
             <p>
               Some links may be affiliate links. We may earn a commission if you buy through them,
-              at no extra cost to you.
+              at no extra cost to you. Recommendations are written around buyer fit, source signals,
+              and clear limitations.
             </p>
           </div>
         </footer>

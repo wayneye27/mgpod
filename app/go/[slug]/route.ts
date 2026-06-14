@@ -7,7 +7,7 @@ type Params = {
 
 export async function GET(request: Request, { params }: Params) {
   const { slug } = await params;
-  const targetUrl = getAffiliateUrl(slug, "seller_ai_tools");
+  const targetUrl = getAffiliateUrl(slug, "mgpod_reviews");
 
   if (targetUrl === "#") {
     return NextResponse.json({ error: "Affiliate link not found" }, { status: 404 });
