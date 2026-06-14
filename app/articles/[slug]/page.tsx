@@ -133,6 +133,70 @@ export default async function ArticlePage({ params }: Params) {
                   )}
                 </div>
               )}
+              {article.review.comparison && (
+                <>
+                  <h2>Competitor comparison</h2>
+                  <div className="overflow-x-auto rounded-lg border border-line bg-white">
+                    <table className="min-w-full border-collapse text-left text-sm">
+                      <thead className="bg-mint text-ink">
+                        <tr>
+                          <th className="p-4 font-black">Product</th>
+                          <th className="p-4 font-black">Best for</th>
+                          <th className="p-4 font-black">Standout feature</th>
+                          <th className="p-4 font-black">Main limitation</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {article.review.comparison.map((item) => (
+                          <tr key={item.product} className="border-t border-line align-top">
+                            <td className="p-4 font-bold text-ink">{item.product}</td>
+                            <td className="p-4 text-moss">{item.bestFor}</td>
+                            <td className="p-4 text-moss">{item.standout}</td>
+                            <td className="p-4 text-moss">{item.limitation}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </>
+              )}
+              {article.review.feedbackSummary && (
+                <>
+                  <h2>Public customer feedback patterns</h2>
+                  <div className="grid gap-4 md:grid-cols-2">
+                    <section className="rounded-lg border border-line bg-oat p-4">
+                      <h3 className="mt-0">Common positives</h3>
+                      <ul>
+                        {article.review.feedbackSummary.positive.map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </section>
+                    <section className="rounded-lg border border-line bg-oat p-4">
+                      <h3 className="mt-0">Common complaints</h3>
+                      <ul>
+                        {article.review.feedbackSummary.critical.map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </section>
+                  </div>
+                </>
+              )}
+              {article.review.sourceLinks && (
+                <>
+                  <h2>Sources to check before buying</h2>
+                  <ul>
+                    {article.review.sourceLinks.map((source) => (
+                      <li key={source.url}>
+                        <a href={source.url} rel="nofollow" target="_blank">
+                          {source.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
               <h2>Recommended stack</h2>
               <ComparisonTable tools={featuredTools} />
               {article.review.sections.map((section) => (

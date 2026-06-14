@@ -118,5 +118,85 @@
     "network": "Partner or affiliate program",
     "commission": "Verify in affiliate dashboard",
     "notes": "Use for writing quality and business communication content."
+  },
+  {
+    "slug": "nordvpn",
+    "name": "NordVPN",
+    "targetUrl": "https://nordvpn.com/",
+    "network": "Direct or partner network",
+    "commission": "High-converting VPN offer; verify approved payout in dashboard",
+    "notes": "Replace with your approved NordVPN tracking link."
+  },
+  {
+    "slug": "surfshark",
+    "name": "Surfshark",
+    "targetUrl": "https://surfshark.com/",
+    "network": "Direct or partner network",
+    "commission": "VPN subscription commission; verify approved payout in dashboard",
+    "notes": "Replace with your approved Surfshark tracking link."
+  },
+  {
+    "slug": "monday",
+    "name": "monday.com",
+    "targetUrl": "https://monday.com/",
+    "network": "Partner or affiliate program",
+    "commission": "SaaS affiliate payout; verify approved payout in dashboard",
+    "notes": "Replace with your approved monday.com tracking link."
+  },
+  {
+    "slug": "coursera",
+    "name": "Coursera",
+    "targetUrl": "https://www.coursera.org/",
+    "network": "Partner network",
+    "commission": "Education affiliate payout; verify approved payout in dashboard",
+    "notes": "Replace with your approved Coursera tracking link."
+  },
+  {
+    "slug": "bluehost",
+    "name": "Bluehost",
+    "targetUrl": "https://www.bluehost.com/",
+    "network": "Direct or partner network",
+    "commission": "Hosting bounty commission; verify approved payout in dashboard",
+    "notes": "Replace with your approved Bluehost tracking link."
+  },
+  {
+    "slug": "elementor",
+    "name": "Elementor",
+    "targetUrl": "https://elementor.com/",
+    "network": "Direct or partner network",
+    "commission": "WordPress product commission; verify approved payout in dashboard",
+    "notes": "Replace with your approved Elementor tracking link."
+  },
+  {
+    "slug": "hubspot",
+    "name": "HubSpot",
+    "targetUrl": "https://www.hubspot.com/",
+    "network": "Partner or affiliate program",
+    "commission": "B2B SaaS partner payout; verify approved payout in dashboard",
+    "notes": "Replace with your approved HubSpot tracking link."
+  },
+  {
+    "slug": "teachable",
+    "name": "Teachable",
+    "targetUrl": "https://teachable.com/",
+    "network": "Direct or partner network",
+    "commission": "Creator platform commission; verify approved payout in dashboard",
+    "notes": "Replace with your approved Teachable tracking link."
+  },
+  {
+    "slug": "adobe-express",
+    "name": "Adobe Express",
+    "targetUrl": "https://www.adobe.com/express/",
+    "network": "Adobe affiliate program or partner network",
+    "commission": "Creative product commission; verify approved payout in dashboard",
+    "notes": "Replace with your approved Adobe tracking link."
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "targetUrl": "https://www.notion.com/",
+    "network": "Partner or affiliate program",
+    "commission": "Productivity SaaS payout; verify approved payout in dashboard",
+    "notes": "Replace with your approved Notion tracking link."
   }
 ]

@@ -190,6 +190,126 @@ export const tools: Tool[] = [
     affiliateSlug: "grammarly",
     rating: 4.4,
     features: ["Grammar checks", "Tone suggestions", "AI writing help", "Team writing controls"]
+  },
+  {
+    slug: "nordvpn",
+    name: "NordVPN",
+    category: "VPN",
+    description:
+      "A consumer VPN and privacy suite with apps across desktop, mobile, browser, TV, and router workflows.",
+    bestFor: "Privacy-conscious users, travelers, streamers, and remote workers comparing premium VPNs.",
+    pricing: "Paid subscription plans with frequent long-term promotions.",
+    affiliateSlug: "nordvpn",
+    rating: 4.5,
+    features: ["Large server network", "Threat protection", "Meshnet", "Multi-platform apps"]
+  },
+  {
+    slug: "surfshark",
+    name: "Surfshark",
+    category: "VPN",
+    description:
+      "A privacy and VPN product known for broad device coverage, security add-ons, and competitive multi-year pricing.",
+    bestFor: "Households and budget-conscious users who need VPN coverage across many devices.",
+    pricing: "Paid subscription plans with long-term discounts.",
+    affiliateSlug: "surfshark",
+    rating: 4.4,
+    features: ["VPN", "Alternative ID", "Antivirus bundle", "Unlimited device positioning"]
+  },
+  {
+    slug: "monday",
+    name: "monday.com",
+    category: "Work management",
+    description:
+      "A work management and CRM platform for projects, workflows, sales pipelines, and team collaboration.",
+    bestFor: "Teams that want visual workflow management, automations, and flexible boards.",
+    pricing: "Free and paid plans vary by seats and product line.",
+    affiliateSlug: "monday",
+    rating: 4.5,
+    features: ["Boards", "Automations", "Dashboards", "CRM and work management products"]
+  },
+  {
+    slug: "coursera",
+    name: "Coursera",
+    category: "Online learning",
+    description:
+      "An online learning marketplace with university courses, professional certificates, specializations, and degrees.",
+    bestFor: "Career switchers and learners seeking recognized courses from universities and companies.",
+    pricing: "Free course access and paid certificates/subscriptions vary by course.",
+    affiliateSlug: "coursera",
+    rating: 4.3,
+    features: ["Professional certificates", "University courses", "Specializations", "Degrees"]
+  },
+  {
+    slug: "bluehost",
+    name: "Bluehost",
+    category: "Web hosting",
+    description:
+      "A WordPress-focused hosting provider for blogs, small business sites, and beginner affiliate websites.",
+    bestFor: "Beginners who want a mainstream WordPress hosting option with setup guidance.",
+    pricing: "Paid hosting plans with promotional first-term pricing.",
+    affiliateSlug: "bluehost",
+    rating: 4.1,
+    features: ["WordPress hosting", "Domain options", "SSL", "Site builder tools"]
+  },
+  {
+    slug: "elementor",
+    name: "Elementor",
+    category: "Website builder",
+    description:
+      "A WordPress page builder and hosting ecosystem for landing pages, business websites, and visual site design.",
+    bestFor: "WordPress users who want visual design control without coding each page.",
+    pricing: "Free plugin plus paid Pro and hosting options.",
+    affiliateSlug: "elementor",
+    rating: 4.4,
+    features: ["Visual builder", "Theme builder", "Templates", "WordPress integrations"]
+  },
+  {
+    slug: "hubspot",
+    name: "HubSpot",
+    category: "CRM",
+    description:
+      "A CRM and marketing platform with free tools plus paid hubs for marketing, sales, service, CMS, and operations.",
+    bestFor: "Small and mid-size businesses that want CRM, forms, email, and pipeline tracking in one ecosystem.",
+    pricing: "Free CRM tools and paid hub plans.",
+    affiliateSlug: "hubspot",
+    rating: 4.5,
+    features: ["CRM", "Email marketing", "Forms", "Sales pipeline", "Marketing automation"]
+  },
+  {
+    slug: "teachable",
+    name: "Teachable",
+    category: "Online courses",
+    description:
+      "A platform for selling online courses, coaching, digital downloads, and creator education products.",
+    bestFor: "Creators turning expertise into courses, workshops, and paid digital products.",
+    pricing: "Paid plans; transaction fees and feature limits vary by plan.",
+    affiliateSlug: "teachable",
+    rating: 4.2,
+    features: ["Course builder", "Checkout", "Coaching", "Digital downloads"]
+  },
+  {
+    slug: "adobe-express",
+    name: "Adobe Express",
+    category: "Design tools",
+    description:
+      "A lightweight design and content creation tool for social graphics, short videos, flyers, and brand assets.",
+    bestFor: "Creators and small businesses that want fast design assets in the Adobe ecosystem.",
+    pricing: "Free and paid plans.",
+    affiliateSlug: "adobe-express",
+    rating: 4.3,
+    features: ["Templates", "Quick video tools", "Brand kits", "Adobe asset ecosystem"]
+  },
+  {
+    slug: "notion",
+    name: "Notion",
+    category: "Productivity",
+    description:
+      "A connected workspace for notes, docs, databases, wikis, projects, and lightweight team workflows.",
+    bestFor: "Creators, students, teams, and founders organizing knowledge and project systems.",
+    pricing: "Free and paid workspace plans.",
+    affiliateSlug: "notion",
+    rating: 4.5,
+    features: ["Docs", "Databases", "Templates", "Projects", "AI add-ons"]
   }
 ];
 
